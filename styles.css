@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+.App {
+  font-family: "Varela Round", sans-serif;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+:root {
+  --primary-color: #ea935d;
+  --secondary-color: #e3e7a7;
+  --bg-color: #02111b;
+}
+
+.title {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+
+.tag {
+  color: #f0c59ac0;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #02111b;
+  color: var(--secondary-color);
+}
+
+.genres {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.genres ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-inline-start: 0px;
+}
+
+.genres ul li {
+  list-style-type: none;
+  padding: 0.8rem;
+  border: 1px solid var(--secondary-color);
+  margin: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.genres ul li:hover {
+  background: var(--primary-color);
+  color: var(--bg-color);
+  border: 1px solid var(--bg-color);
+}
+
+.movieList ul {
+  margin: 0;
+  margin-bottom: 9rem;
+  padding-inline-start: 0;
+}
+
+.movieList ul li {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0.8rem;
+}
+
+.movieList li .movieCard {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 0.5rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.movieList li .movieCard .movieImg {
+  margin-right: 1.3rem;
+  min-height: 12vh;
+}
+
+.movieList li .movieCard .movieDesc {
+  text-align: left;
+  min-height: 10vh;
+  width: 100%;
+}
+
+.movieList li .movieCard .movieDesc a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: small;
+}
+
+.movieList li .movieCard .movieDesc h4 {
+  margin-block-end: 0.3rem;
+  margin-block-start: 0;
+}
+
+.movieList li .movieCard .movieDesc p {
+  margin-top: 0.3rem;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  font-weight: bold;
+  color: black;
+  background: var(--primary-color);
+}
+
+footer p {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 1.5rem;
+  letter-spacing: 0.2rem;
+}
