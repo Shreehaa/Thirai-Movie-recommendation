@@ -15,7 +15,7 @@
   - Axios for API requests
   - Styled Components for CSS styling
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shreehaa/Thirai-Movie-Recommendation-App.git
+
+
+
+
