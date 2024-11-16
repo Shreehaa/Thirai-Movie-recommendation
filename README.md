@@ -15,7 +15,9 @@
   - Axios for API requests
   - Styled Components for CSS styling
 
-
+![home-page](https://github.com/user-attachments/assets/3abb26d1-802c-4256-bb31-964289469705)
+home page 
+![movie-suggestions](https://github.com/user-attachments/assets/a3b212ca-3318-4e9f-9407-f9d8dc3d5dc3)
 
 
 
